@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+}
+
+#Ikea{
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background: url('images/2000px-Ikea_logo.svg.png') no-repeat center;
+    background-size: cover;
+}
+
+h1{
+    color: #ffcc00;
+    font-size: 15px;
+    font-family: Helvetica;
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+}
+
+p{
+    font-family: Helvetica;
+    margin-top: -20px;
+    margin-left: 1000px;
+    text-align: center;
+    
+}
+
+strong{
+    color: blue;
+}
+
+#Home{
+    width: 78px;
+    height: 107px;
+    margin-left: 50px;
+    margin-top: -80px;
+    position: absolute;
+    background: url(images/home.png) no-repeat center;
+    background-size: cover;
+}
+
+#head{
+    width: 1000px;
+    height: 72px;
+    display: inline;
+}
+
+#bar{
+    border-radius: 3px;
+    width: 703px;
+    height: 7px;
+    position: relative;
+    background-color: grey;
+    margin-left: 23%;
+    margin-top: -5px;
+}
+
+ul{
+    z-index: 0;
+list-style-type: none;
+}
+
+#list{
+    display: block;
+}
+
+#item1{
+    width: 100px;
+    height: 54px;
+    position: relative;
+}
+#item2{
+    width: 100px;
+    height: 54px;
+    position: relative;
+}
+#item3{
+    width: 100px;
+    height: 54px;
+    position: relative;
+}
+#item4{
+    width: 100px;
+    height: 54px;
+    position: relative;
+}
+#item4{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}#item5{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}#item6{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}#item7{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}#item8{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}#item9{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}#item10{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}#item11{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}
+
+#mascotte{
+    margin-right: 20px;
+    margin-top: -130px;
+    z-index: 1;
+    float: right;
+    width: 120px;
+    height: 129px;
+    background: url(images/mascotte-TOURNE-VISSE-1.png) no-repeat center;
+    background-size: cover;
+}
+
+footer{
+    height: 55px;
+    width: 248px;
+}
+
+#fleche1{
+    margin-left: 650px;
+    margin-top: -60px;
+    height: 55px;
+    width: 35px;
+    background: url(images/fleche.png) center;
+    background-size: cover;
+}
+#fleche2{
+    margin-left: 550px;
+    margin-top: -55px;
+    height: 55px;
+    width: 35px;
+    background: url(images/fleche2.png) center;
+    background-size: cover;
+}
+
+
