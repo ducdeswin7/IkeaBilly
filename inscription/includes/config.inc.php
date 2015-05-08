@@ -5,7 +5,7 @@ define('email', 'ducdeswin@outlook.com');
 
 
 // reglages du niveau du site
-define('BASE_URL', 'http://localhost/inscription/');
+define('BASE_URL', 'http://localhost/IkeaBilly/inscription/');
 define('MYSQL', 'mysqli_connect.php');
 
 // fuseau horaire par defaut

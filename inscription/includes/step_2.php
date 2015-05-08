@@ -1,15 +1,6 @@
 <?php
-require_once ('config.inc.php');
-require_once ('mysqli_connect.php');
-$page_title = 'les Etapes';
+$q = $db->query('UPDATE users SET step="'. $_GET['id'] .'" WHERE first_name ="'. $_SESSION['first_name'] .'"');?>
 
-if(!isset($_SESSION['first_name'])){
-    $url = BASE_URL . 'login.php';
-    ob_end_clean();
-    header('Location: '.$url);
-    exit();
-}
-$q = $db->query('UPDATE users SET step='. $_GET['id'] .' WHERE first_name ="'. $_SESSION['first_name'] .'"');?>
+step 2
 
-
-sd'l;gklbsdhfdvflbldsjfgdsfuybhifvls
+<a href="?id=step_3">step 3</a>

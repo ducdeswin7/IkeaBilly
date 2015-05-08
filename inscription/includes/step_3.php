@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: king
- * Date: 08/05/15
- * Time: 05:16
- */
+$q = $db->query('UPDATE users SET step="'. $_GET['id'] .'" WHERE first_name ="'. $_SESSION['first_name'] .'"');?>
+
+
+
+<a href="?id=step_4">step 4</a>
