@@ -1,0 +1,160 @@
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+
+body {
+	background: #eaeaea;
+	color: #000;
+	font-family: Verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+header {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	padding: 10px;
+	background: #003399;
+}
+
+#wrap {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin: 50px 0 0 0;
+	border-bottom: 1px solid #555;
+	width: 280px;
+}
+
+#logo {
+	position: absolute;
+	top: 9px;
+	left: 10px;
+}
+
+#connexion {
+	position: absolute;
+	top: 18px;
+	right: 20px;
+	margin-right: 20px;
+	height: 80px;
+}
+
+#connexion a {
+	color: #fff;
+}
+
+#connexion a:hover {
+	color: #ffcc00;
+}
+
+.pipe {
+	color: #0051ba;
+	margin: 0 10px;
+}
+
+figure {
+	float: left;
+	width: 55%;
+	margin: 0;
+}
+
+figure img {
+	display: block;
+	margin: 0 auto;
+}
+
+center {
+	position: absolute;
+	top: 0;
+	left: -100px;
+	cursor: pointer;
+}
+
+#wrapDescription {
+	float: right;
+	width: 45%;
+	height: 500px;
+/*	background: url(../img/cadre.png) 0 50px no-repeat;*/
+	padding: 20px 0 10px 30px;
+}
+
+.cadre {}
+
+.price {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.description {
+	margin-top: 20px;
+	width: 300px;
+}
+
+#wrapDescription a {
+	display: block;
+	width: 300px;
+	font-size: 24px;
+	color: #0051ba;
+	border: 3px solid #000;
+	padding: 10px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#wrapDescription a:hover {
+	color: #ffcc00;
+}
+
+
+
+/*-----------------------NOTICE---------------------*/
+
+.home {
+	position: absolute;
+	top: 10px;
+	left: 180px;
+}
+
+.progressBar {
+	display: block;
+	position: relative;
+	width: 500px;
+	margin: 25px auto;
+}
+
+.fleches {
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+}
+
+.fleches img:first-child {
+	margin-right: 40px;
+}
+
+#mascotte {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
