@@ -5,7 +5,7 @@ define('email', 'ducdeswin@outlook.com');
 
 
 // reglages du niveau du site
-define('BASE_URL', 'http://localhost/exoPerso/php/inscription/');
+define('BASE_URL', 'http://localhost/inscription/');
 define('MYSQL', 'mysqli_connect.php');
 
 // fuseau horaire par defaut
